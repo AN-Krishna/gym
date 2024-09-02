@@ -1,6 +1,6 @@
 
 import React from 'react'
-import gymvideo2 from "../assets/gymvideo2.mp4";
+// import gymvideo2 from "../assets/gymvideo2.mp4"
 
 const AboutUs = () => {
   return (
