@@ -1,6 +1,6 @@
 
 import React from 'react'
-// import gymvideo2 from "../assets/gymvideo2.mp4"
+import gymvideo from "../assets/gymvideo.mp4"
 
 const AboutUs = () => {
   return (
@@ -29,6 +29,14 @@ const AboutUs = () => {
               <source src={gymvideo2} type="video/mp4" />
               Your browser does not support the video tag.
             </video> */}
+                  <video
+              className='w-full h-auto max-w-lg object-cover '
+              controls  
+              preload="metadata" 
+            >
+              <source src={gymvideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
         </div>
