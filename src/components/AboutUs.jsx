@@ -21,14 +21,14 @@ const AboutUs = () => {
              
         <div className='w-full lg:w-1/2 lg:p-8 mt-6'>
           <div className='flex justify-center items-center h-full'>
-            <video
+{/*             <video
               className='w-full h-auto max-w-lg object-cover'
               controls  
               preload="metadata" 
             >
               <source src={gymvideo2} type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
         </div>
         </div>
